@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(243, 123, 11, 0.475), rgba(243, 123, 11, 0.475)), url("https://www.elsetge.cat/myimg/f/137-1372779_portuguese-baking.jpg") no-repeat center;
+    background-size: cover;
+}
+
+
+/* --- HEADER ---  */
+#header {
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 50px 20px 30px 20px;
+} 
+
+#header h1 {
+    margin: 5px;
+    font-size: 3.5em;
+    color: #000;
+    -webkit-text-fill-color: #000;
+    -webkit-text-fill-color: #E83425;
+    -webkit-text-stroke-width: 2px;
+}
+
+#header p {
+    font-style: italic;
+    font-size: 1.3em;
+}
+
+
+/* --- FORM ---  */
+.form {
+    font-size: 1.5em;
+    width: 70%;
+    margin: 0 auto;
+    padding: 2% 7%;
+    background-color: rgba(128, 63, 214, 0.85);
+    border-radius: 20px;
+    color: #fff;
+}
+
+
+li {
+    list-style: none;
+    margin: 25px 0;
+}
+
+.required {
+    color: #ff0000;
+    font-size: 1em;
+}
+
+.optional {
+    color: #3d3a3a;
+    font-size: .8em;
+}
+
+.space {
+    margin-bottom: 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+}
+
+input[type=text], input[type=email], input[type=number] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.option-margin {
+    margin: 10px;
+    font-size: .8em;
+    font-weight: 500;
+}
+
+.display-block {
+    display: block;
+}
+
+input[type=checkbox], input[type=radio] {
+    margin-right: 10px;
+    width: 17px;
+    height: 17px;
+}
+
+select {
+    padding: 5px;
+    width: 50%;
+    font-size: 0.75em;
+    margin-top: 10px;
+}
+
+textarea {
+    padding: 10px;
+    width: 100%;
+}
+
+#submit {
+    margin-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: #37af65;
+    font-size: .75em;
+    width: 100%;
+    font-weight: 700;
+    border: 1px solid rgb(0, 153, 255);
+    color: #FFF;
+    letter-spacing: 2px;
+}
+

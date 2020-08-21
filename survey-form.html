@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="survey-form.css" type="text/css">
+        <link rel="stylesheet" href="media-query.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- --- Heading ---  -->
+        <div id="header">
+            <h1 id="title">Red Rose Bakery - Survey Form</h1>
+            <p id="description">Thank you for shopping at Red Rose Bakery. Please fill out our survey and receive 20% off on your next order.</p>
+        </div>
+
+        <!-- --- Form ---  -->
+        <div class="form">
+            <form action="" id="survey-form">
+                <ul>
+                    <li>
+                        <label for="name">Name <span class="required">*</span></label><br>
+                        <input id="name" type="text" placeholder="Your Name" name="name" required>
+                    </li>
+                    
+                    <li>
+                        <label for="email">Email Address <span class="required">*</span></label><br>
+                        <input id="email" type="email" placeholder="Your email address" name="email" required>  
+                    </li>
+
+                    <li>
+                        <label for="number">Phone Number <span class="optional">(optional)</span></label><br>
+                        <input id="number" type="number" min="10" max="10" placeholder="Your Contact Number">  
+                    </li>
+
+                    <li>
+                        <p class="space">How often do you shop here:</p>
+                        <label class="option-margin"><input type="radio" name="how-often" value="once">Once a week</label>
+                        <label class="option-margin"><input type="radio" name="how-often" value="upto-three">Upto 3 times a week</label>
+                        <label class="option-margin"><input type="radio" name="how-often" value="morethan-three">Morethan 3 times a week</label>
+                    </li>
+
+                    <li>
+                        <label for="dropdown">How would you rate your experience with us:</label> <br>
+                        <select id="dropdown">
+                        <option value="good" selected>Good</option>
+                        <option value="neutral">Neutral</option>
+                        <option value="bad">Bad</option>
+                        </select>  
+                    </li>
+
+                    <li>
+                        <p>We are making some changes to our menu. What would you like to be added in our menu</p>
+                        <label class="option-margin display-block"><input type="checkbox" value="cupcakes">Cupcakes</label class=" option-margin">
+                        <label class="option-margin display-block"><input type="checkbox" value="milk rusk">Milk Rusk</label>
+                        <label class="option-margin display-block"><input type="checkbox" value="garlic bread">Garlic Bread</label>
+                        <label class="option-margin display-block"><input type="checkbox" value="waffle">Waffle</label>
+                        <label class="option-margin display-block"><input type="checkbox" value="frozen deserts">Frozen Deserts</label>  
+                    </li>
+
+                    <li>
+                        <p>If you have any comments or suggestions, please let us know:</p> 
+                        <textarea class="option-margin" name="comments" id="" cols="85" rows="7" placeholder="Additional comments"></textarea>
+                    </li>    
+
+                    <li>
+                        <label class=" option-margin"><input type="checkbox" value="yes" checked>I would like to receive weekly newsletter</label>   
+                    </li>
+
+                    <input type="submit" id="submit">
+                </ul>
+            </form>
+        </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,97 @@
+/* big tablets from 1024 to 1200px */
+@media only screen and (max-width: 1200px){
+    #header h1 {
+        font-size: 3em;
+    }
+
+    #header p {
+        font-size: 1.25em;
+    }
+
+    .form {
+        padding: 2% 5%;
+        font-size: 1.3em;
+    }
+
+    .option-margin {
+        display: block;
+    }
+}
+
+/* small tablet to big tablets from 768px to 1023px */
+@media only screen and (max-width: 1023px){
+    #header h1 {
+        font-size: 2.5em;
+    }
+
+    #header p {
+        font-size: 1.15em;
+    }
+
+    .form {
+        padding: 2% 2%;
+        width: 80%;
+        font-size: 1.25em;
+    }
+
+    textarea {
+        width: 90%;
+    }
+}
+
+/* small phones to small tablets from 481px to 767px */
+@media only screen and (max-width: 767px){
+    #header {
+        margin: 3px auto;
+        /* border: 1px solid blue; */
+    }
+
+    #header h1 {
+        font-size: 2em;
+        -webkit-text-stroke-width: 1px;
+    }
+
+    #header p {
+        font-size: 1em;
+    }
+
+    .form {
+        width: 100%;
+        font-size: 1em;
+        padding: 2% 10%;
+        border-radius: 0;
+    }
+
+    input[type=checkbox], input[type=radio] {
+        width: 10px;
+        height: 10px;
+    }
+
+    .option-margin {
+        margin-left: 35px;
+    }
+
+    textarea {
+        width: 65%;
+    }
+} 
+
+/* small phones: from 0 to 480px  */
+@media only screen and (max-width: 480px){
+    #header h1 {
+        font-size: 1.75em;
+    }
+
+    #header p {
+        font-size: .75em;
+    }
+
+    .form {
+        padding: 2% 4%;
+    }
+
+    textarea {
+        width: 70%;
+    }
+
+}
