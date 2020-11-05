@@ -3,3 +3,5 @@
 This page was made as a part of my freecodecamp curriculum.
 
 Languages Used: HTML & CSS
+
+[View Page](https://minm333.github.io/survey-form-fcc/)
